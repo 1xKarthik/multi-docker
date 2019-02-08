@@ -1,0 +1,29 @@
+{
+  "name": "complex-fib",
+  "version": "1.0.0",
+  "description": "Overly complex fibonacci series",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikgirraj/docker-fibonacci.git"
+  },
+  "author": "Karthik Girraju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthikgirraj/docker-fibonacci/issues"
+  },
+  "homepage": "https://github.com/karthikgirraj/docker-fibonacci#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "pg": "^7.8.0",
+    "redis": "^2.8.0"
+  }
+}

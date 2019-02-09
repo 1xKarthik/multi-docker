@@ -10,12 +10,12 @@ services:
       context: ./nginx
       dockerfile: Dockerfile.dev
     ports:
-      - 3080:80
+      - 3050:80
   adminer:
     image: adminer
     restart: always
     ports:
-      - 3050:8080
+      - 3080:8080
   api:
     build:
       context: ./server
